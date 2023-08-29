@@ -22,3 +22,10 @@ puts a
 puts "\u0041"
 
 puts 0b11111111
+
+status = 'ok'
+unless status =='ok'
+  puts '何か異常があります'
+else 
+  puts  '正常です'
+end 
