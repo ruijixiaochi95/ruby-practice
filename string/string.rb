@@ -29,3 +29,17 @@ unless status =='ok'
 else 
   puts  '正常です'
 end 
+
+if status != 'error'
+  puts '何か異常があります'
+end 
+
+s = ''
+if s.empty?
+  puts '空文字列です'
+end
+
+user = nil
+if user.nil?
+  puts 'nilです'
+end 
