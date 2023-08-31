@@ -43,3 +43,31 @@ user = nil
 if user.nil?
   puts 'nilです'
 end 
+
+country = 'itary'
+
+case country
+when 'japan'
+  puts 'こんにちは'
+when 'us'
+  puts 'Hello'
+when 'itary'
+  puts 'Ciao'
+else 
+  puts '???'
+end 
+
+country = 'アメリカ'
+case country
+when 'jpan', '日本'
+  puts 'こんにちは'
+when 'us', 'アメリカ'
+  puts 'Hello'
+when 'itary', 'イタリア'
+  puts 'Ciao'
+else 
+  puts '???'
+end
+
+n = 11
+n > 10 ? '10より大きい' : '10以下'
