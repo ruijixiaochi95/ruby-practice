@@ -71,3 +71,17 @@ end
 
 n = 11
 n > 10 ? '10より大きい' : '10以下'
+
+a = 'ruby'
+a.upcase!
+puts a
+
+def foo(time = Time.now, message = bar)
+  puts "time: #{time}, message: #{message}"
+end 
+
+def bar
+  'BAR'
+end 
+
+puts foo
