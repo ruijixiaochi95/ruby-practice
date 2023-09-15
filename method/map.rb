@@ -7,3 +7,9 @@ numbers.each do |n|
 end 
 
 puts new_numbers
+
+numbers.map do |n|
+  new_numbers << n * 10
+end 
+
+puts new_numbers
