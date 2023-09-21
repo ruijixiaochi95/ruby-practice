@@ -42,9 +42,12 @@ end
 
 def greet(*names)
   "#{names.join('と')}, こんにちは！"
-end 
+end
 
 puts greet('田中さん')
 puts greet('田中さん', '鈴木さん')
 puts greet('田中さん', '鈴木さん', '佐藤さん')
 
+a = Array.new
+a = Array.new(5)
+puts a
