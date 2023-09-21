@@ -49,5 +49,8 @@ puts greet('田中さん', '鈴木さん')
 puts greet('田中さん', '鈴木さん', '佐藤さん')
 
 a = Array.new
-a = Array.new(5)
+a = Array.new(5, 0)
+puts a
+
+a = Array.new(10) { |n| n % 3 + 1 }
 puts a
