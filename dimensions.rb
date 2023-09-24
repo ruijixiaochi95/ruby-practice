@@ -10,3 +10,13 @@ dimensions.each do |length, width|
 end 
 
 puts areas
+
+dimensions.each_with_index do |dimension, i|
+  length = dimension[0]
+  width = dimension[1]
+  puts "length: #{length}, width: #{width}, i: #{i}"
+end 
+
+dimensions.each_with_index do |(length, width), i|
+  puts "length: #{length}, width: #{width}, i: #{i}"
+end 
