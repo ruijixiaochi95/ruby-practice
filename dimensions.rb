@@ -20,3 +20,7 @@ end
 dimensions.each_with_index do |(length, width), i|
   puts "length: #{length}, width: #{width}, i: #{i}"
 end 
+
+dimensions.each { p _1 }
+
+dimensions.each { puts "#{_1} / #{_2}" }
