@@ -20,3 +20,7 @@ numbers.each do |n; sum|
 end 
   
 puts sum
+
+numbers = [10, 20, 30, 40,50]
+puts numbers[2..]
+puts numbers[..1]
