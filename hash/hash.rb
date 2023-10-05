@@ -16,3 +16,15 @@ currencies.each do |key_value|
   value = key_value[1]
   puts "#{key} : #{value}"
 end 
+
+currencies = { japan: 'yen', us: 'dollar', india: 'rupee' }
+currencies[:us]
+
+puts currencies.keys
+puts currencies.values
+
+def buy_burger(options = {}, menu)
+  puts options 
+end 
+
+buy_burger('fish', {'drink' => true, 'potato => false'})
